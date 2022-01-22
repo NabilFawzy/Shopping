@@ -1,1 +1,9 @@
-hello
+<app-nav-bar></app-nav-bar>
+
+<div class="container" style="margin-top: 140px;"> 
+    <ul class="list-unstyled">
+        <li *ngFor="let product of products">
+            {{product.name}}
+        </li>
+    </ul>
+</div>
